@@ -1,0 +1,214 @@
+<html><head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        * {
+
+            box-sizing: border-box;
+
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    
+     [class*="col-"] {
+            float: left;
+            padding: 15px;
+
+        }
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+    div {background-color: #f0ead2;}
+    [class*="col-"] {
+        
+        width: 100%;
+        font-size: 20px;
+       
+        }
+ }
+/* For tablets: */      
+@media only screen and (min-width: 768px) {
+   div {background-color:#dde5b6;}
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+
+/*For PC*/
+@media only screen and (min-width: 1024px) {
+   div {background-color:#adc178;  }
+        .col-1 { width: 8.33%; }
+        .col-2 { width: 16.66%; }
+        .col-3 { width: 25%; }
+        .col-4 { width: 33.33%; }
+        .col-5 { width: 41.66%; }
+        .col-6 { width: 50%; }
+        .col-7 { width: 58.33%; }
+        .col-8 { width: 66.66%; }
+        .col-9 { width: 75%; }
+        .col-10 { width: 83.33%; }
+        .col-11 { width: 91.66%; }
+        .col-12 { width: 100%; }
+
+     }  
+       
+    html {
+            font-family: "Lucida Sans", sans-serif;
+
+        .header {
+
+            background-color: #a98467;
+           
+            color: #6c584c;
+
+            padding: 15px;
+
+            text-align: center;
+            
+
+        }
+
+        .frame {
+            
+            padding: 25px;
+            height: 1300px;
+            border: 1px solid #b8c4ff;
+            gap: 10px;
+
+        }
+
+        .responsive {
+        max-width: 100%;
+        height: auto;}
+
+        h3 {color: #6c584c;}
+        p {color: #6c584c;}
+        img {border: 5px solid; border-color: #6c584c}
+        li {color: #6c584c;}
+           
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+     padding: 0;
+    overflow: hidden;
+    background-color: #8a817c;
+    }
+
+        li {
+  float: left;
+        }
+
+        li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+        li a:hover {
+  background-color: #bcb8b1;
+}
+
+
+    </style>
+
+    <title>Charles' Law</title>
+       
+</head>
+
+<body>
+ 
+      <ul>
+  <li><a href="Navigation Page.html">Home</a></li>
+  <li><a class="active" href="boyle's law.html">Boyle's Law</a></li>
+  <li><a href="Charles's Law.html">Charles's Law</a></li>
+  <li><a href="Gay Lussac's Law.html">Gay-Lussac's Law</a></li>
+  <li><a href="Avogadro's Law.html">Avogadro's Law</a></li>
+  
+ 
+  
+
+    </ul>
+    <div class="header">
+
+        <h1>Gas Law #2: Charles's Law</h1>
+        <P>The Editors of Encyclopaedia Britannica. (2024, December 9). Charles’s law | Definition & Facts. Encyclopedia Britannica. <i>https://www.britannica.com/science/Charless-law</i></P>
+        <P>Wikipedia contributors. (2024, September 25). Jacques Charles. Wikipedia. <i>https://en.wikipedia.org/wiki/Jacques_Charles</i></P>
+
+
+    </div>
+ 
+   
+    <div class="row">
+        
+ 
+       <div class="col-3 col-s-3 frame">
+         <h3>French Inventor and Chemist, Jacques Charles.</h3>
+         <p>Jacques Alexandre Cesar Charles, more commonly known as Jacques Charles was a French scientist/chemist who was well known for his discovery of the relationship between the temperature and volume of a gas. Born on November 12th, 1746 and died on the 17th of April 1823. During his time, Charles had also invented the first hydrogen balloon along with his other notable discoveries.</p>
+         <img src="jacques charles.png" alt="Jacques Charles" class="responsive" width="600" height="400">
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>More about: Charles's Law</h3>
+         <p>Charles's Law states that the volume and temperature of a gas are directly proportionate, whilst pressure stays constant. </p>
+         <p><b>Formula: V1 / T1 = V2 / T2</b></p>
+         <ul></ul>
+            <li>V1 is the initial volume</li> 
+            <li>T1 is the initial temperature</li> 
+            <li>V2 is the final volume</li> 
+            <li>T2 is the final temperature</li> 
+
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>Real Life Application</h3>
+        <p>A great example of Charles's Law at work is the hot air balloon. The fire heats up the molecules inside the balloon, causing them to move around more, expanding the volume of the balloon itself.</p>
+        <p><b>Visual Example</b></p>
+        <img src="charles law example.jpg" alt="Example" class="responsive" width="600" height="400"> 
+        <p> The exmaple above shows the relationship between temperature and volume as heat is increased.</p>
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>Seatwork:</h3>
+         <p> A gas occupies a container that is 50L with its initial temperature being 23 degrees celsius. After the gas is heated, it increases to 42 degrees celsius.</p>
+         <p><b>Solution</b></p>
+            <p><b>The initial volume</b> = <b>50L</b>
+<br>
+            <b>The initial temperature</b> = <b>23 degrees celsius</b>
+<br>
+            <b>The final temperature</b> = <b>42 degrees celsius</b>
+<br>
+            <b>Required</b>: <b>V2</b>, Final volume.
+<br>          
+            <b>Note</b>: In examples using Charles's Law, it is required to convert into kelvin. It is done by adding 273 to your initial and final temperature. To convert from kelvin to celsius, you subtract.
+         <p><b>Answer:</b></p>
+         <p><b>V2 = 53.209L / 53.21L</b>
+<br>
+            <b>To conclude, the final volume after the container is heated is 53.21L.</b></p>
+        </div>
+
+    </div>
+</body> 
+</html>

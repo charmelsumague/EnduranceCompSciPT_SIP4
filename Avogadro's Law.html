@@ -1,0 +1,211 @@
+<html><head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        * {
+
+            box-sizing: border-box;
+
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    
+     [class*="col-"] {
+            float: left;
+            padding: 15px;
+
+        }
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+    div {background-color: #cdb4db;}
+    [class*="col-"] {
+        
+        width: 100%;
+        font-size: 20px;
+       
+        }
+ }
+/* For tablets: */      
+@media only screen and (min-width: 768px) {
+   div {background-color:#bde0fe;}
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+
+/*For PC*/
+@media only screen and (min-width: 1024px) {
+   div {background-color:#ffc8dd;  }
+        .col-1 { width: 8.33%; }
+        .col-2 { width: 16.66%; }
+        .col-3 { width: 25%; }
+        .col-4 { width: 33.33%; }
+        .col-5 { width: 41.66%; }
+        .col-6 { width: 50%; }
+        .col-7 { width: 58.33%; }
+        .col-8 { width: 66.66%; }
+        .col-9 { width: 75%; }
+        .col-10 { width: 83.33%; }
+        .col-11 { width: 91.66%; }
+        .col-12 { width: 100%; }
+
+     }  
+       
+    html {
+            font-family: "Lucida Sans", sans-serif;
+
+        .header {
+
+            background-color: #a2d2ff;
+           
+            color: #60495a;
+
+            padding: 15px;
+
+            text-align: center;
+            
+
+        }
+
+        .frame {
+            
+            padding: 25px;
+            height: 1300px;
+            border: 1px solid #a2d2ff;
+            gap: 10px;
+
+        }
+
+        .responsive {
+        max-width: 100%;
+        height: auto;}
+
+        h3 {color: #60495a;}
+        p {color: #60495a;}
+        img {border: 5px solid; border-color: #a2d2ff;}
+        li {color: #60495a;}
+           
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+     padding: 0;
+    overflow: hidden;
+    background-color: #8a817c;
+    }
+
+        li {
+  float: left;
+        }
+
+        li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+        li a:hover {
+  background-color: #bcb8b1;
+}
+
+
+    </style>
+       <title>Avogadro's Law</title>
+</head>
+
+<body>
+ 
+      <ul>
+    <li><a href="Navigation Page.html">Home</a></li>
+  <li><a class="active" href="boyle's law.html">Boyle's Law</a></li>
+  <li><a href="Charles's Law.html">Charles's Law</a></li>
+  <li><a href="Gay Lussac's Law.html">Gay-Lussac's Law</a></li>
+  <li><a href="Avogadro's Law.html">Avogadro's Law</a></li>
+ 
+  
+
+    </ul>
+    <div class="header">
+
+        <h1>Avogadro's Law</h1>
+        <P>Helmenstine, A. (2022, November 29). Avogadro’s Law - Definition, Formula, Examples. Science Notes and Projects.<i>"https://sciencenotes.org/avogadros-law-definition-formula-examples/</i></P>
+        <P>Avogadro’s Law: Definition, Formula, Derivation, Examples. (2022, July 19). Toppr-guides. <i>https://www.toppr.com/guides/chemistry/avogadros-law/#:~:text=A%20great%20example%20of%20Avogadro's,common%20example%20of%20Avogadro's%20law.</i></P>
+        <P>The Editors of Encyclopaedia Britannica. (2024, November 21). Mole | Definition, Number, & Facts. Encyclopedia Britannica. <i>https://www.britannica.com/science/mole-chemistry</i></P>
+
+
+    </div>
+ 
+   
+    <div class="row">
+        
+ 
+       <div class="col-3 col-s-3 frame">
+         <h3>Chemist Amadeo Avogadro</h3>
+         <p>Avogadro's Law was invented by chemist Amadeo Avogadro in the early 19th century. According to (The Editors of Encyclopaedia Britannica, 2024), for many years, it was not generally accepted until the mid 19th centuries when an Italian chemist, Stanislao Cannizzaro, constructed a logical system of chemistry based on it.</p>
+         <img src="avogadro.jpg" alt="Avogadro" class="responsive" width="600" height="400">
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>Charles's Law</h3>
+         <p>Volume is directly proportional to the amount of gas (in moles). </p>
+         <p><b>Formula: V1 / n1 = V2 / n2</b></p>
+         <ul></ul>
+            <li>V1 is the first volume</li> 
+            <li>n1 is the second volume</li> 
+            <li>V2 is the first amount of gas (in moles)</li> 
+            <li>n2 is the second amount of gas (in moles)</li> 
+
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>Real Life Application</h3>
+        <p>A care tire contains air inside of it. When the air that was contained in the tire gets out, the amount of air in the tire goes down. When we breathe, the air in our lung goes up and so do the volume of our lungs. </p>
+        <p><b>Visual Example</b></p>
+        <img src="avovisual.png" alt="Example" class="responsive" width="600" height="400"> 
+        <p> The exmaple above shows the relationship between temperature and volume as heat is increased.</p>
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>Seatwork:</h3>
+         <p>  There is .0456 mol of gas in a 2 L container. How much molecules must be added to make the volume 2.8 </b></p>
+            <p><b>Initial Volume (V1)= 2L<b></p>
+<b>
+            
+            <p><b>Initial Volume (V1)= 2L<b></p>
+
+            <p><b>Initial molecules (n1)= 0.0456 mol<b> </p>
+
+            <p><b>Final Volume (V2)= 2.8L<b></p>
+
+            <p>Required: <b>Final molecules (n2)= ?<b></p>
+
+            <p><b>Answer: Final molecules (n2) = 0.6384 mol</b></p>
+
+        </div>
+
+    </div>
+</body> 
+</html>
