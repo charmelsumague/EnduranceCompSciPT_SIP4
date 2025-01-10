@@ -1,0 +1,208 @@
+<html><head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        * {
+
+            box-sizing: border-box;
+
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    
+     [class*="col-"] {
+            float: left;
+            padding: 15px;
+
+        }
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+    div {background-color:#e5cdb0;}
+    [class*="col-"] {
+        
+        width: 100%;
+        font-size: 20px;
+       
+        }
+ }
+/* For tablets: */      
+@media only screen and (min-width: 768px) {
+   div {background-color:#e1e5f2;}
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+
+/*For PC*/
+@media only screen and (min-width: 1024px) {
+   div {background-color:#efede6;  }
+        .col-1 { width: 8.33%; }
+        .col-2 { width: 16.66%; }
+        .col-3 { width: 25%; }
+        .col-4 { width: 33.33%; }
+        .col-5 { width: 41.66%; }
+        .col-6 { width: 50%; }
+        .col-7 { width: 58.33%; }
+        .col-8 { width: 66.66%; }
+        .col-9 { width: 75%; }
+        .col-10 { width: 83.33%; }
+        .col-11 { width: 91.66%; }
+        .col-12 { width: 100%; }
+
+     }  
+       
+    html {
+            font-family: "Lucida Sans", sans-serif;
+
+        .header {
+
+            background-color: #d7d3c1;
+           
+            color: #8f857b;
+
+            padding: 15px;
+
+            text-align: center;
+            
+
+        }
+
+        .frame {
+            
+            padding: 25px;
+            height: 1300px;
+            border: 1px solid white;
+            gap: 10px;
+
+        }
+
+        .responsive {
+        max-width: 100%;
+        height: auto;}
+
+        h3 {color: #8f857b;}
+        p {color: #8f857b;}
+        img {border: 5px solid; border-color: #cb997e}
+        ul {color: #8f857b;}
+        li {color: #8f857b;}
+           
+            ul {
+    list-style-type: none;
+    margin: 0;
+     padding: 0;
+    overflow: hidden;
+    background-color: #8a817c;
+    }
+
+        li {
+  float: left;
+        }
+
+        li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+        li a:hover {
+  background-color: #bcb8b1;
+}
+        
+    </style>
+    <title>Boyle's Law</title>
+       
+</head>
+
+<body>
+
+     <ul>
+  <li><a href="CompSci_PT.html">Home</a></li>
+  <li><a href="boyle's law.html">Boyle's Law</a></li>
+  <li><a href="Charles's Law.html">Charles's Law</a></li>
+  <li><a href="Gay Lussac's Law.html">Gay Lussac's Law</a></li>
+  <li><a href="Avogadro's Law.html">Avogadro's Law</a></li>
+  
+
+    </ul>
+ 
+    <div class="header">
+
+        <h1>Gas Law #1: Boyle's Law</h1>
+        <P>Principe, L. M. (2024, December 27). Robert Boyle | Biography, Contributions, Works, & Facts. Encyclopedia Britannica. <i>https://www.britannica.com/biography/Robert-Boyle<i></P>
+        <P>BYJU'S. (2024, June 24). Boyle’s Law - Definition, Equation; Facts with Examples. <i>https://byjus.com/chemistry/boyles-law/<i></P>
+
+
+    </div>
+ 
+   
+    <div class="row">
+        
+ 
+       <div class="col-3 col-s-3 frame">
+         <h3>The Chemist Behind: Robert Boyle</h3>
+         <p>Robert Boyle (born January 25, 1627, Lismore Castle, County Waterford, Ireland—died December 31, 1691, London, England) was an Anglo-Irish natural philosopher and theological writer, a preeminent figure of 17th-century intellectual culture (Principe, 2024).</p>
+         <img src="boyle.jpg" alt="Charles Boyle" class="responsive" width="600" height="400">
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>What is Boyle's Law?</h3>
+         <p>Boyle’s law states that the pressure is inversely proportional to the volume of the gas at constant pressure (BYJU'S, 2022).</p>
+         <p><b>P1V1 = P2V2</b></p>
+         <ul></ul>
+            <li>P1 is the initial pressure</li> 
+            <li>V1 is the initial volume</li> 
+            <li>P2 is the final pressure</li> 
+            <li>V2 is the final volume</li>
+    
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>Real Life Application</h3>
+        <p>When a filled balloon is squeezed, the volume occupied by the air inside the balloon decreases. This is accompanied by an increase in the pressure exerted by the air on the balloon, as a consequence of Boyle’s law. As the balloon is squeezed further, the increasing pressure eventually pops it (BYJU'S, 2022).</p>
+        <p><b>Visual Example</b></p>
+        <img src="visualrep.png" alt="Visual Representation" class="responsive" width="600" height="400"> 
+        <p> This illustration demonstrates the inverse relationship of pressure and volume.</p>
+        </div>
+
+        <div class="col-3 col-s-3 frame">
+         <h3>Exercise</h3>
+         <p> An ideal gas occupying a 2.0 L flask at 760 torrs is allowed to expand to a volume of 6,000 mL. Calculate the final pressure.</p>
+         <p><b>Given & Required</b></p>
+            <p>Initial Volume (V1 ) = 2 L</p>
+<br>
+            <p>Initial Pressure (P1 ) = 760 torrs</p>
+<br>
+            <p>Final Volume (V2 ) = 6000 mL = 6 L</p>
+<br>
+            <p>To Find: Final Pressure (P 2 ) = ?</p>
+<br>
+         <p><b>Answer:</b></p>
+         <p>P 2 = 133.33 ≈ <b>133 kPa</b>
+<br>
+            Hence the final pressure of the gas at of volume 3 L is equivalent to <b>133 kPa</b>.</p>
+        </div>
+        
+</body> 
+</html>
